@@ -4,9 +4,7 @@ import config
 import override
 
 def renderGame(game, canvas):
-    for i in range(8):
-        override.renderPin(((i + 1) * 43.50 * config.inPerTick) + 160, (240 * config.inPerTick) + 80, 'RY', 'side', 0, canvas)
-    override.renderCup(43.50 * config.inPerTick, 200 * config.inPerTick, 'transparent', 'up', 0, canvas)
+    return
 
 def renderTiles(canvas):
     # render field perimeter
