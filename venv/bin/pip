@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/home/david/DVHS Robotics/bubonic/venv/bin/python3" "$0" "$@"
+'''exec' "/home/david/DVHS Robotics/vex-soy-sauce/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

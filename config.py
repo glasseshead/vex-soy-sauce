@@ -8,7 +8,7 @@ fpsClock = pygame.time.Clock()
 canvasX, canvasY = 800, 640
 canvasBGColour = (66, 77, 79)
 
-# pixels per inch conversion
-# this is actually supposed to be ticks per inch
+# inches per tick conversion
 # i named it this to conform with ftc
+inPerTick = 24 / 80
 tickPerIn = 80 / 24

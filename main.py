@@ -3,6 +3,7 @@ from pygame.locals import *
 import config
 
 import render
+import override
 
 # initialize
 pygame.init()
